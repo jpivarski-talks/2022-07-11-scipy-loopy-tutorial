@@ -1,4 +1,4 @@
-= Abstract
+# Abstract
 
 It's curious that Python is now the leading language for scientific computing, since pure Python code is not fast and slow code × big data = long wait times. However, most number-crunching in Python is performed by optimized, precompiled libraries: Python only directs the computation, steering it toward the user's intent. As a consequence, the most basic syntax you might learn in an introductory programming class—`if`, `for`, and `while` loops—is not what you should use when dealing with big data. You should use "vectorized" expressions, like slices, broadcasting, and reducers.
 
@@ -8,7 +8,7 @@ This tutorial is an introduction to vectorized array programming. Python beginne
 
 **Setup instructions:** none. We'll use cloud-based notebooks with everything preinstalled.
 
-= Outline
+# Outline
 
 Array-oriented programming is a paradigm in its own right, challenging its users to think about problems in a different way. From APL in 1966 to NumPy today, those users are typically scientists analyzing or simulating data. This tutorial focuses on the thought process: all of the problems are to be solved both in an imperative (loopy) way and in a array-oriented (unloopy) way to fully explore this distinction. Also, the problems are all data-centric: analyzing data or performing a simulation, with an eye toward scaling up the problems to big data. Matplotlib will be used for plotting, but all plotting commands will be given (not prerequisites).
 
@@ -52,7 +52,7 @@ The session alternates between expositions of concepts and time-bound problems (
 
 All of the exercises are break-out sessions. If in-person, I would walk around the room, checking in on each group as they work. If on Zoom, I would navigate between break-out rooms. (If hybrid, I can do both.) The exposition parts are mini-lectures, using prepared examples, but the students will be encouraged to evaluate them with me so they can change the parameters, explore, and ask questions. The one demo (at **2:00‒2:10**) is also a mini-lecture—whether the students will be able to try it with me depends on whether I manage to get cloud resources with GPUs attached. If not, they'll use mybinder.org without GPUs; they'll only be able to watch.
 
-= Data sources
+# Data sources
 
 * The indexing and slicing examples would be drawn from https://github.com/jpivarski-talks/2019-04-08-picscie-numpy/blob/master/03-numpy-skills.ipynb (including the text-vectorization example).
 * Mandelbrot with and without loops (including the GPU demo) would be like these performance tests: https://github.com/jpivarski-talks/2019-04-08-picscie-numpy/blob/master/07-coding-fast-and-fast-code.ipynb
