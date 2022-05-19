@@ -2,9 +2,12 @@ import glob
 import json
 import math
 import subprocess
+import sys
 
 import awkward._v2 as ak
 import numpy as np
+
+PART, TOTAL = int(sys.argv[1]), int(sys.argv[2])
 
 DIRECTORY = "/mnt/storage/data/taxi-trips/"
 
@@ -13,7 +16,13 @@ DIRECTORY = "/mnt/storage/data/taxi-trips/"
 LONGITUDE, LATITUDE = -87.66178320769112, 41.896777262111726
 LON_TO_KM, LAT_TO_KM = 82.98452409203695, 111.07127961503745
 
-for filename in glob.glob(DIRECTORY + "by-taxi/*.csv"):
+filenames = sorted(glob.glob(DIRECTORY + "by-taxi/*.csv"))
+
+FRAC = int(math.ceil(len(filenames) / TOTAL))
+PORT = 5001 + PART
+
+for filename in filenames[FRAC * PART : FRAC * (PART + 1)]:
+    print(filename)
     with open(filename, "r") as file:
         with open(filename.replace("by-taxi/", "by-taxi-paths/"), "w") as output:
             for line in file:
@@ -35,7 +44,7 @@ for filename in glob.glob(DIRECTORY + "by-taxi/*.csv"):
                 result = subprocess.run(
                     [
                         "curl",
-                        f"http://127.0.0.1:5000/route/v1/driving/{trip_begin_lon},{trip_begin_lat};{trip_end_lon},{trip_end_lat}?steps=true",
+                        f"http://127.0.0.1:{PORT}/route/v1/driving/{trip_begin_lon},{trip_begin_lat};{trip_end_lon},{trip_end_lat}?steps=true",
                     ],
                     capture_output=True,
                 )
