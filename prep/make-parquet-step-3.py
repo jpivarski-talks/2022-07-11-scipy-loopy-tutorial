@@ -303,6 +303,8 @@ def batches(num_trips):
                     payment_type,
                     path,
                 ) = trip
+                if trip_begin_time.startswith("2022-") or trip_end_time.startswith("2022-"):
+                    continue
 
                 if trip_seconds == "None":
                     all_trip_seconds.append(0.0)
