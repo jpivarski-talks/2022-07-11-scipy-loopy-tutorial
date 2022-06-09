@@ -22,13 +22,13 @@ The session alternates between expositions of concepts and time-bound problems (
 
 **0:30‒0:40 (10 min):** Applying array-at-a-time (vectorized) functions to an array and multiple arrays (with a word about broadcasting).
 
-**0:40‒1:00 (20 min):** **Exercise:** simulating waves in a fluid. I'll explain how to compute a time-step; the problem will be to apply it to all pixels iteratively (with loops and without loops). **Optional extension:** implement Conway's game of life in a similar way.
+**0:40‒1:00 (20 min):** **Exercise (1):** simulating waves in a fluid. I'll explain how to compute a time-step; the problem will be to apply it to all pixels iteratively (with loops and without loops). **Optional extension (1-X):** implement Conway's game of life in a similar way.
 
 **1:00‒1:10 (10 min):** _(break)_
 
 **1:10‒1:30 (20 min):** The "iterate until converged" problem, using a Mandelbrot calculation as an example.
 
-**1:30‒1:50 (20 min):** **Exercise:** evaluating a decision tree for many inputs at once (given the tree as an array of indexes pointing to the next nodes, such as what `sklearn.tree.DecisionTreeRegressor` returns). Leaves have to be absorbing states; iteration stops when all inputs reach leaves. **Optional extension:** instead of the busy-wait, try masking out the inputs that have reached leaves. Which method is faster (for a set of example trees)?
+**1:30‒1:50 (20 min):** **Exercise (2):** evaluating a decision tree for many inputs at once (given the tree as an array of indexes pointing to the next nodes, such as what `sklearn.tree.DecisionTreeRegressor` returns). Leaves have to be absorbing states; iteration stops when all inputs reach leaves. **Optional extension (2-X):** instead of the busy-wait, try masking out the inputs that have reached leaves. Which method is faster (for a set of example trees)?
 
 **1:50‒2:00 (10 min):** _(break)_
 
@@ -36,7 +36,7 @@ The session alternates between expositions of concepts and time-bound problems (
 
 **2:10‒2:20 (10 min):** Using reducers, with histogram-projection as an example (sum 3D → 2D and 2D → 1D).
 
-**2:20‒2:40 (20 min):** **Exercise:** roll your own rolling mean (without `np.convolve` or `pd.DataFrame.rolling`). **Optional extension:** do it with a non-square kernel (e.g. a Gaussian kernel).
+**2:20‒2:40 (20 min):** **Exercise (3):** roll your own rolling mean (without `np.convolve` or `pd.DataFrame.rolling`). **Optional extension (3-X):** do it with a non-square kernel (e.g. a Gaussian kernel).
 
 **2:40‒2:50 (10 min):** _(break)_
 
@@ -44,9 +44,9 @@ The session alternates between expositions of concepts and time-bound problems (
 
 **3:00‒3:20 (20 min):** Chicago taxi trip dataset (~GB Parquet file, variable number of trips per taxi and variable length paths per trip): basic exploration, putting techniques into practice (select by fare, by starting point in the city, by starting date, etc.).
 
-**3:20‒3:40 (20 min):** **Reduction exercise:** compute path lengths per trip. **Optional extension:** find the ratio of each with distance "as the crow flies."
+**3:20‒3:40 (20 min):** **Reduction exercise (4):** compute path lengths per trip. **Optional extension (4-X):** find the ratio of each with distance "as the crow flies."
 
-**3:40‒4:00 (20 min):** **Bonus exercise:** tidy the data (put it in 3rd normal form), resulting in a table of taxis, a table of trips, and a table of positions in paths, all connected by surrogate keys. **Optional extension:** repeat the calculation of path lengths per trip using "group by" in Pandas.
+**3:40‒4:00 (20 min):** **Bonus exercise (5):** tidy the data (put it in 3rd normal form), resulting in a table of taxis, a table of trips, and a table of positions in paths, all connected by surrogate keys. **Optional extension (5-X):** repeat the calculation of path lengths per trip using "group by" in Pandas.
 
 **Total time: 4 hours.**
 
