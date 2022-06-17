@@ -22,7 +22,7 @@ In JupyterLab, the left-bar lets you navigate through files, shut down unnecessa
   <td style="border: none"><img src="img/jupyterlab-files.png"></td>
   <td style="border: none"><img src="img/jupyterlab-kernels.png"></td>
   <td style="border: none"><img src="img/jupyterlab-toc.png"></td>
-</td></table>
+</tr></table>
 
 The "intermezzo" demo will be run on [Google Colab](https://research.google.com/colaboratory/) (because it requires a GPU). You can join that as well if you have a Colab account, but you don't have to—none of the exercises require it.
 
