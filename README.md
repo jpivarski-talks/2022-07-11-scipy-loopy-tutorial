@@ -1,6 +1,6 @@
 # Loopy and unloopy programming techniques
 
-This repository contains everything you need to follow the "[Loopy and unloopy programming techniques" tutorial, presented at the [SciPy conference](https://www.scipy2022.scipy.org/) [on July 11, 2022 at 1:30pm‒5:30pm CDT](https://www.scipy2022.scipy.org/tutorials-schedule).
+This repository contains everything you need to follow the "Loopy and unloopy programming techniques" tutorial, presented at the [SciPy conference](https://www.scipy2022.scipy.org/) on [July 11, 2022 at 1:30pm‒5:30pm CDT](https://www.scipy2022.scipy.org/tutorials-schedule).
 
 ## How to participate
 
