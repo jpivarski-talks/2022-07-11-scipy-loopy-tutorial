@@ -19,9 +19,9 @@ While working on exercises, keep a copy of your work-in-progress in a text edito
 In JupyterLab, the left-bar lets you navigate through files, shut down unnecessary kernels (closing a notebook tab does not shut down its Python kernel), and navigate the table of contents.
 
 <table width="100%"><tr>
-  <td style="margin-right: 5px"><img src="img/jupyterlab-files.png"></td>
-  <td><img src="img/jupyterlab-kernels.png"></td>
-  <td style="margin-left: 5px"><img src="img/jupyterlab-toc.png"></td>
+  <td width="30%"><img src="img/jupyterlab-files.png"></td>
+  <td width="30%"><img src="img/jupyterlab-kernels.png"></td>
+  <td width="30%"><img src="img/jupyterlab-toc.png"></td>
 </td></table>
 
 The "intermezzo" demo will be run on [Google Colab](https://research.google.com/colaboratory/) (because it requires a GPU). You can join that as well if you have a Colab account, but you don't have to—none of the exercises require it.
