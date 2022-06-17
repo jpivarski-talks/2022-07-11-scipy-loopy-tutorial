@@ -49,14 +49,14 @@ The tutorial is designed around three major exercises with some introductory mat
    * **01:30pm (20 min)** Introduction to exercise 1
    * **01:50pm (20 min)** Participants work on [exercise 1](exercises/exercise-1.ipynb) ([evaluated](exercises/exercise-1-EVALUATED.ipynb))
    * **02:05pm (15 min)** Break
-   * **02:25pm (20 min)** We go through the [solutions to exercise 1](solutions/solutions-1.ipynb) ([evaluated](solutions/solutions-1-EVALUATED.ipynb))
+   * **02:25pm (20 min)** We go through the [solutions to exercise 1](solutions/solution-1.ipynb) ([evaluated](solutions/solution-1-EVALUATED.ipynb))
    * **02:45pm (20 min)** Introduction to exercise 2
    * **03:05pm (20 min)** Participants work on [exercise 2](exercises/exercise-2.ipynb) ([evaluated](exercises/exercise-2-EVALUATED.ipynb))
    * **03:20pm (15 min)** Break
-   * **03:40pm (20 min)** We go through the [solutions to exercise 2](solutions/solutions-2.ipynb) ([evaluated](solutions/solutions-2-EVALUATED.ipynb))
+   * **03:40pm (20 min)** We go through the [solutions to exercise 2](solutions/solution-2.ipynb) ([evaluated](solutions/solution-2-EVALUATED.ipynb))
    * **03:55pm (15 min)** Intermezzo: demo with a GPU
    * **04:15pm (20 min)** Introduction to exercise 3
    * **04:35pm (20 min)** Participants work on [exercise 3](exercises/exercise-3.ipynb) ([evaluated](exercises/exercise-3-EVALUATED.ipynb))
    * **04:50pm (15 min)** Break
-   * **05:10pm (20 min)** We go through the [solutions to exercise 3](solutions/solutions-3.ipynb) ([evaluated](solutions/solutions-3-EVALUATED.ipynb))
+   * **05:10pm (20 min)** We go through the [solutions to exercise 3](solutions/solution-3.ipynb) ([evaluated](solutions/solution-3-EVALUATED.ipynb))
    * **05:30pm** The end!
