@@ -12,17 +12,21 @@ You don't need to install anything on your computer to participate; I encourage 
   </a>
 </p>
 
-Binder tips: if your notebook becomes unresponsive, reconnect to the kernel or restart the kernel from the "Kernel" menu.
+**Binder tips:**
+
+If your notebook becomes unresponsive, reconnect to the kernel or restart the kernel from the "Kernel" menu.
 
 While working on exercises, keep a copy of your work-in-progress in a text editor, so that you don't lose them if the web page reloads. "Run → Run All Above Selected Cell" and "Kernel → Restart Kernel and Run up to Selected Cell" will rerun all of the code to get your Python session back to the state it was in before a page reload or kernel restart.
 
 In JupyterLab, the left-bar lets you navigate through files, shut down unnecessary kernels (closing a notebook tab does not shut down its Python kernel), and navigate the table of contents.
 
-<table width="100%" style="border: none"><tr style="border: none">
-  <td style="border: none"><img src="img/jupyterlab-files.png"></td>
-  <td style="border: none"><img src="img/jupyterlab-kernels.png"></td>
-  <td style="border: none"><img src="img/jupyterlab-toc.png"></td>
+<table width="100%"><tr>
+  <td><img src="img/jupyterlab-files.png"></td>
+  <td><img src="img/jupyterlab-kernels.png"></td>
+  <td><img src="img/jupyterlab-toc.png"></td>
 </tr></table>
+
+**Google Colab:**
 
 The "intermezzo" demo will be run on [Google Colab](https://research.google.com/colaboratory/) (because it requires a GPU). You can join that as well if you have a Colab account, but you don't have to—none of the exercises require it.
 
@@ -32,3 +36,27 @@ We use the libraries and versions listed in [requirements.txt](requirements.txt)
 
 We won't spend any time in the tutorial session on installing libraries. If an installation on your computer doesn't work, switch to Binder by pressing the button above.
 
+## Browsing the material online
+
+If you want to see the notebooks online but don't want to execute them in Binder, the starting point is [narrative.ipynb](narrative.ipynb), which continues into notebooks in the [exercises](exercises) directory. It does not contain a direct link to the [solutions](solutions), but you can navigate there manually.
+
+The default notebooks are unevaluated. To see static outputs from a previous run, look at the "-EVALUATED" version of each notebook.
+
+## Rough timeline of the tutorial
+
+The tutorial is designed around three major exercises with some introductory material for each, and it is designed to fit into 4 hours, with breaks. Here is a rough timeline of how we may go through it, though I'll adjust based on feedback from the participants.
+
+   * **01:30pm (20 min)** Introduction to exercise 1
+   * **01:50pm (20 min)** Participants work on exercise 1 (evaluated)
+   * **02:05pm (15 min)** Break
+   * **02:25pm (20 min)** We go through the solutions to exercise 1 (evaluated)
+   * **02:45pm (20 min)** Introduction to exercise 2
+   * **03:05pm (20 min)** Participants work on exercise 2 (evaluated)
+   * **03:20pm (15 min)** Break
+   * **03:40pm (20 min)** We go through the solutions to exercise 2 (evaluated)
+   * **03:55pm (15 min)** Intermezzo: demo with a GPU
+   * **04:15pm (20 min)** Introduction to exercise 3
+   * **04:35pm (20 min)** Participants work on exercise 3 (evaluated)
+   * **04:50pm (15 min)** Break
+   * **05:10pm (20 min)** We go through the solutions to exercise 3 (evaluated)
+   * **05:30pm** The end!
