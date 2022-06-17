@@ -46,6 +46,7 @@ The default notebooks are unevaluated. To see static outputs from a previous run
 
 The tutorial is designed around three major exercises with some introductory material for each, and it is designed to fit into 4 hours, with breaks. Here is a rough timeline of how we may go through it, though I'll adjust based on feedback from the participants.
 
+   * **01:30pm** Start the [narrative](narrative.ipynb) ([evaluated](narrative-EVALUATED.ipynb))
    * **01:30pm (20 min)** Introduction to exercise 1
    * **01:50pm (20 min)** Participants work on [exercise 1](exercises/exercise-1.ipynb) ([evaluated](exercises/exercise-1-EVALUATED.ipynb))
    * **02:05pm (15 min)** Break
@@ -54,7 +55,7 @@ The tutorial is designed around three major exercises with some introductory mat
    * **03:05pm (20 min)** Participants work on [exercise 2](exercises/exercise-2.ipynb) ([evaluated](exercises/exercise-2-EVALUATED.ipynb))
    * **03:20pm (15 min)** Break
    * **03:40pm (20 min)** We go through the [solutions to exercise 2](solutions/solution-2.ipynb) ([evaluated](solutions/solution-2-EVALUATED.ipynb))
-   * **03:55pm (15 min)** Intermezzo: demo with a GPU
+   * **03:55pm (15 min)** [Intermezzo: demo on Google Colab](https://drive.google.com/file/d/1J0l5e0NZm5kEm5BEUDG4neN5EN0VVCnt/view?usp=sharing)
    * **04:15pm (20 min)** Introduction to exercise 3
    * **04:35pm (20 min)** Participants work on [exercise 3](exercises/exercise-3.ipynb) ([evaluated](exercises/exercise-3-EVALUATED.ipynb))
    * **04:50pm (15 min)** Break
