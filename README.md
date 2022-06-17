@@ -38,7 +38,7 @@ We won't spend any time in the tutorial session on installing libraries. If an i
 
 ## Browsing the material online
 
-If you want to see the notebooks online but don't want to execute them in Binder, the starting point is [narrative.ipynb](narrative.ipynb), which continues into notebooks in the [exercises](exercises) directory. It does not contain a direct link to the [solutions](solutions), but you can navigate there manually.
+If you want to see the notebooks online but don't want to execute them in Binder, the starting point is [narrative.ipynb](narrative.ipynb), which continues into notebooks in the [exercises](exercises) directory. It does not contain a direct link to the [solutions](solutions), but you can navigate there manually. (The [prep](prep) directory was only used to create this tutorial.)
 
 The default notebooks are unevaluated. To see static outputs from a previous run, look at the "-EVALUATED" version of each notebook.
 
