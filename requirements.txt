@@ -1,5 +1,7 @@
+aiohttp
 awkward>=1.9.0rc5
 cython
+fsspec
 jax
 jaxlib
 matplotlib
@@ -8,5 +10,6 @@ numexpr
 numpy
 pandas
 pyarrow
+requests
 scikit-learn
 scipy
