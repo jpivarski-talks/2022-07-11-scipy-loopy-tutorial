@@ -1,6 +1,6 @@
 # Loopy and unloopy programming techniques
 
-This repository contains everything you need to follow the "Loopy and unloopy programming techniques" tutorial, presented at the [SciPy conference](https://www.scipy2022.scipy.org/) on [July 11, 2022 at 1:30pm‒5:30pm CDT](https://www.scipy2022.scipy.org/tutorials-schedule).
+This repository contains everything you need to follow the "Loopy and unloopy programming techniques" tutorial, presented at the [SciPy conference](https://www.scipy2022.scipy.org/) on [July 11, 2022 at 1:30pm‒5:30pm CDT](https://www.scipy2022.scipy.org/tutorials-schedule) ([video](https://youtu.be/Dovyd72eD70)).
 
 ## How to participate
 
@@ -41,6 +41,8 @@ We won't spend any time in the tutorial session on installing libraries. If an i
 If you want to see the notebooks online but don't want to execute them in Binder, the starting point is [narrative.ipynb](narrative.ipynb), which continues into notebooks in the [exercises](exercises) directory. It does not contain a direct link to the [solutions](solutions), but you can navigate there manually. (The [prep](prep) directory was only used to create this tutorial.)
 
 The default notebooks are unevaluated. To see static outputs from a previous run, look at the "-EVALUATED" version of each notebook.
+
+The whole tutorial was recorded; here is a [video of it on YouTube](https://youtu.be/Dovyd72eD70).
 
 ## Rough timeline of the tutorial
 
