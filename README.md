@@ -2,6 +2,15 @@
 
 This repository contains everything you need to follow the "Loopy and unloopy programming techniques" tutorial, presented at the [SciPy conference](https://www.scipy2022.scipy.org/) on [July 11, 2022 at 1:30pm‒5:30pm CDT](https://www.scipy2022.scipy.org/tutorials-schedule) ([video](https://youtu.be/Dovyd72eD70)).
 
+> [!NOTE]
+> The file `https://pivarski-princeton.s3.us-east-1.amazonaws.com/chicago-taxi.parquet` has been deleted from this URL and is now [hosted on Zenodo](https://zenodo.org/records/14537442); use
+>
+> ```bash
+> wget 'https://zenodo.org/records/14537442/files/chicago-taxi.parquet?download=1' -O chicago-taxi.parquet
+> ```
+>
+> to get a copy of the file for the last exercise. 
+
 ## How to participate
 
 You don't need to install anything on your computer to participate; I encourage everyone to join on Binder.
